@@ -1,6 +1,7 @@
 namespace riskmanagement;
  using { managed } from '@sap/cds/common';
 // using an external service from S/4
+//test for cicd
 using { API_BUSINESS_PARTNER as external } from '../srv/external/API_BUSINESS_PARTNER.csn';
  entity Risks : managed {
  key ID : UUID @(Core.Computed : true);
